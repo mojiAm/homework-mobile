@@ -1,0 +1,188 @@
+body{
+	margin: 0;
+	/*background-color: #F5F5F5;*/
+}
+
+.contain{
+	/*width: 320px;*/
+	/*margin: 0 auto;*/
+}
+
+.clear{
+	clear:both;
+	display:block;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	margin:0 !important;
+	padding:0 !important;
+	overflow:hidden;
+}
+
+a{
+	text-decoration: none;
+	color: #111;
+}
+
+menu,ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+header .header{
+	background-color: #2984C2;
+	min-height: 40px;
+	margin-top: 0;
+	background: url('./images/nav_main_bg.png') repeat-x center;
+	border-bottom: 1px solid #0A345C;
+}
+
+header .logo{
+	width: 57px;
+	height: 40px;
+	background: url('./images/logo.png') no-repeat center;
+	margin: 0 auto;
+}
+
+header .pic-text{
+	margin: 0 auto;
+	padding-top: 20px;
+	background-color: #EFF5F9;
+}
+
+header .pic-text .header-pic{
+	display: block;
+	margin: 0 auto;
+}
+
+header .pic-text .text{
+	text-align: center;
+	color: #808080;
+	font-size: 15px;
+	padding: 15px 0;
+}
+
+section.content{
+	background-color: #fff;
+	padding-bottom: 30px;
+}
+
+section.content .menu nav menu li{
+	border-top:  1px solid #CCC;
+}
+
+section.content .menu nav menu li:last-child{
+	border-bottom:  1px solid #CCC;
+}
+
+section.content .menu nav menu li a p{
+	color: #1A74B0;
+	font-size: 18px;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+section.content .menu nav menu li a p{
+	margin-left: 30px;
+}
+
+section.content .menu nav menu li a.login{
+	display: block;
+	background: url('./images/login.png') no-repeat left;
+	margin-left: 10px;
+}
+
+section.content .menu nav menu li a.sign{
+	display: block;
+	background: url('./images/signup.png') no-repeat left;
+	margin-left: 10px;
+}
+
+section.content .menu nav menu li a.box{
+	display: block;
+	background: url('./images/apps.png') no-repeat left;
+	margin-left: 10px;
+}
+
+section.content .menu nav menu li a.about{
+	display: block;
+	background: url('./images/info.png') no-repeat left;
+	margin-left: 10px;
+}
+
+section.content .detail{
+	margin-left: 10px;
+}
+
+section.content .detail h2{
+	font-size: 18px;
+	color: #333;
+}
+
+section.content .detail ul{
+	margin-left: 15px;
+}
+
+section.content .detail ul li{
+	padding: 7px 0;
+}
+
+section.content .detail li p{
+	margin-left: 30px;
+	color: #666;
+}
+
+section.content .detail li.mobile{
+	background: url('./images/mobile.png') no-repeat left;
+	height: 25px;
+}
+
+section.content .detail li.upload{
+	background: url('./images/upload.png') no-repeat left;
+	height: 25px;
+}
+
+section.content .detail li.share{
+	background: url('./images/share.png') no-repeat left;
+	height: 25px;
+}
+
+footer{
+	background-color: #EFF5F9;
+}
+
+footer .menu nav menu{
+	display: block;
+}
+
+footer .menu nav menu li{
+	float: left;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	width: 32%;
+}
+
+footer .menu nav menu li:first-child{
+	border-left: 1px solid #CCC;
+}
+
+footer .menu nav menu li a{
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+	color:  #1A74B0;
+}
+
+footer .copy p{
+	margin-top: 10px;
+	text-align: center;
+	color: #555;
+}
