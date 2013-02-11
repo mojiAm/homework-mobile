@@ -11,16 +11,20 @@
 </head>
 <body>
 	<div data-role="page" id="page1">
-		<div data-role="header" data-theme="b"><h1>Header</h1></div>
+		<div data-role="header" data-theme="b" data-position="fixed" data-fullscreen="true"><h1>Header</h1></div>
 		<div data-role="content">
 			<div data-role="collapsible-set">
-				<h3>Haeder coll 1</h3>
-				<div data-role="collapsible" data-collapsed="true" data-inset="false" data-mini="true" data-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-					<h3>Coll 1</h3>
-					<p>practice one of collapse</p>
+				<div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true" data-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+					<h3>Fliip</h3>
+					<label>switch flip:
+						<select name="flip" data-role="slider" data-mini="true" data-theme="e" data-track-theme="a">
+							<option value="off">off</option>	
+							<option value="on">on</option>	
+						</select>
+					</label>
 				</div>
 				<div data-role="collapsible" data-collapsed="true" data-inset="false" data-mini="true" data-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
-					<h3>Check box</h3>
+					<h3>Check and radio</h3>
 					<div data-role="controlgroup" data-mini="true">
 						<label><input type="checkbox" name="checkbox-0"/>Agree</label>
 						<label><input type="checkbox" name="checkbox-1"/>Disagree</label>
@@ -31,7 +35,7 @@
 						<label><input type="radio" name="radio-0"/>Disagree</label>
 					</fieldset >
 				</div>
-				<div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true" data-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+				<div data-role="collapsible" data-collapsed="true" data-inset="false" data-mini="true" data-theme="c" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
 					<h3>Dialog</h3>
 					<div data-role="controlgroup" data-type="horizontal" data-mini="true">
 						<a href="page2.html" data-role="button" data-rel="dialog" data-transition="pop">Dialog pop</a>
@@ -41,7 +45,7 @@
 				</div>
 				</div>
 		</div>
-		<div data-role="footer" data-position="fixed" data-theme="b">
+		<div data-role="footer" data-position="fixed" data-theme="b" data-fullscreen="true">
 			<div data-role="controlgroup" data-type="horizontal" data-mini="true">
 				<a href="./" data-role="button" data-icon="home" data-iconpos="left" data-iconshadow="true" data-theme="a" data-corners="false">Home</a>
 				<a href="./" data-role="button" data-icon="info" data-iconpos="left" data-iconshadow="true" data-theme="a" data-corners="false">About</a>
